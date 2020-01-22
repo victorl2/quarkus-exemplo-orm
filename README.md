@@ -32,3 +32,5 @@ Isto é devido a configuração _( dentro do persistence.xml )_ para arquivos or
 <mapping-file>META-INF/orm/GlobalConfig.orm.xml</mapping-file>
 <mapping-file>META-INF/orm/Fruta.orm.xml</mapping-file>
 ```
+
+Podemos concluir então que a informação fornecida pela documentação do quarkus é verdadeira, a utilização de arquivos **xml** para mapeamento orm **não é suportada**. Sendo recomendada a utilização de **anotações** pelo [guia orm quarkus](https://quarkus.io/guides/hibernate-orm#hibernate-orm-in-development-mode)
