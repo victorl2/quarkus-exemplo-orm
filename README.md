@@ -26,7 +26,7 @@ Caused by: java.lang.UnsupportedOperationException: Value found for #getMappingF
 	at io.quarkus.hibernate.orm.runtime.boot.LightPersistenceXmlDescriptor.verifyIgnoredFields(LightPersistenceXmlDescriptor.java:53)
 ```
 
-Este é devido pela seguinte configuração _( dentro do persistence.xml )_ de arquivos orm não suportada pelo quarkus:
+Isto é devido a configuração _( dentro do persistence.xml )_ para arquivos orm _( atualmente não suportada pelo quarkus )_:
 
 ```
 <mapping-file>META-INF/orm/GlobalConfig.orm.xml</mapping-file>
